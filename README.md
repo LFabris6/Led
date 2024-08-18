@@ -1,4 +1,4 @@
 # Led
-Na Desktop GUI aplikaciji(WXwidgets) sa kompjutera,korisnik pali/gasi led lampicu na Rasberry Pi-u, Kompjuter i RPI se umrežavaju(Boost Asio)
+On desktop GUI application (WXwidgets), user turns on/off LED on Raspberry Pi.
 
-Preko GUI desktop aplikacije(sve platforme) korisnik starta TCP server( Boost-Asio ). Jetson Nano/RPI klijent spaja se na server te tada sa aplikacije korisnik može upaliti/ugasiti led lampicu.
+Through GUI desktop application (all platforms) user starts the TCP server (Boost-Asio). Jetson Nano/RPI client connects to the server, and then user can turn on/off the led light from the app.
